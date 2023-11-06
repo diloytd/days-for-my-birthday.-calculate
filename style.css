@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 400px;
+    height: 150px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 130px auto;
+}
+
+.form {display: grid;
+grid-column: 1rem 1rem 1rem;
+gap: 20px;}
+
+.form input{ grid-column: 1;}
+.form button{ grid-column: 2;
+background-color: green;
+color: aliceblue;}
+
+h5, h1{color: rebeccapurple;
+text-align: center;}
